@@ -294,7 +294,7 @@ $(document).ready(function () {
       function whichExp(exp, maxexp) {
         let expressions = ["angry", "disgusted", "fearful", "happy", "neutral", "sad", "surprised"];
         let maxIndex = exp.indexOf(maxexp);
-        return expressions[maxIndex] + " (" + maxexp.toFixed(2) + ")";
+        return expressions[maxIndex];
       }
       
 
