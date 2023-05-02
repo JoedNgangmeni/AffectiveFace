@@ -172,124 +172,125 @@ $(document).ready(function () {
             else if(whichExp(exp,maxexp) == "surprised")
               document.getElementById("display").src = "../images/M60Su.png";
           }
-        else if (gender == "female"){
+        }
+
+        if (gender == "female"){
           if (age >= 10){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M10A.png";
+              document.getElementById("display").src = "../images/F10A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M10D.png";
+              document.getElementById("display").src = "../images/F10D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M10F.png";
+              document.getElementById("display").src = "../images/F10F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M10h.png";
+              document.getElementById("display").src = "../images/F10H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M10N.png";
+              document.getElementById("display").src = "../images/F10N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M10S.png";
+              document.getElementById("display").src = "../images/F10S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M10Su.png";
+              document.getElementById("display").src = "../images/F10Su.png";
           }
           if (age > 10 && age <= 20){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M1020A.png";
+              document.getElementById("display").src = "../images/F1020A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M1020D.png";
+              document.getElementById("display").src = "../images/F1020D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M1020F.png";
+              document.getElementById("display").src = "../images/F1020F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M1020H.png";
+              document.getElementById("display").src = "../images/F1020H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M1020N.png";
+              document.getElementById("display").src = "../images/F1020N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M1020S.png";
+              document.getElementById("display").src = "../images/F1020S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M1020Su.png";
+              document.getElementById("display").src = "../images/F1020Su.png";
           }
           if (age > 20 && age <= 30){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M2030A.png";
+              document.getElementById("display").src = "../images/F2030A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M2030D.png";
+              document.getElementById("display").src = "../images/F2030D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M2030F.png";
+              document.getElementById("display").src = "../images/F2030F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M2030H.png";
+              document.getElementById("display").src = "../images/F2030H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M2030N.png";
+              document.getElementById("display").src = "../images/F2030N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M2030S.png";
+              document.getElementById("display").src = "../images/F2030S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M2030Su.png";
+              document.getElementById("display").src = "../images/F2030Su.png";
           }
           if (age > 30 && age <= 40){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M3040A.png";
+              document.getElementById("display").src = "../images/F3040A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M3040D.png";
+              document.getElementById("display").src = "../images/F3040D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M3040F.png";
+              document.getElementById("display").src = "../images/F3040F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M3040H.png";
+              document.getElementById("display").src = "../images/F3040H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M3040N.png";
+              document.getElementById("display").src = "../images/F3040N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M3040S.png";
+              document.getElementById("display").src = "../images/F3040S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M3040Su.png";
+              document.getElementById("display").src = "../images/F3040Su.png";
           }
           if (age > 40 && age <= 50){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M4050A.png";
+              document.getElementById("display").src = "../images/F4050A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M4050D.png";
+              document.getElementById("display").src = "../images/F4050D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M4050F.png";
+              document.getElementById("display").src = "../images/F4050F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M4050H.png";
+              document.getElementById("display").src = "../images/F4050H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M4050N.png";
+              document.getElementById("display").src = "../images/F4050N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M4050S.png";
+              document.getElementById("display").src = "../images/F4050S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M4050Su.png";
+              document.getElementById("display").src = "../images/F4050Su.png";
           }
           if (age > 50 && age <= 60){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M5060A.png";
+              document.getElementById("display").src = "../images/F5060A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M5060D.png";
+              document.getElementById("display").src = "../images/F5060D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M5060F.png";
+              document.getElementById("display").src = "../images/F5060F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M5060H.png";
+              document.getElementById("display").src = "../images/F5060H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M5060N.png";
+              document.getElementById("display").src = "../images/F5060N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M5060S.png";
+              document.getElementById("display").src = "../images/F5060S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M5060Su.png";
+              document.getElementById("display").src = "../images/F5060Su.png";
           }
           if (age > 60 ){
             if(whichExp(exp,maxexp) == "angry")
-              document.getElementById("display").src = "../images/M60A.png";
+              document.getElementById("display").src = "../images/F60A.png";
             else if(whichExp(exp,maxexp) == "disgusted")
-              document.getElementById("display").src = "../images/M60D.png";
+              document.getElementById("display").src = "../images/F60D.png";
             else if(whichExp(exp,maxexp) == "fearful")
-              document.getElementById("display").src = "../images/M60F.png";
+              document.getElementById("display").src = "../images/F60F.png";
             else if(whichExp(exp,maxexp) == "happy")
-              document.getElementById("display").src = "../images/M60H.png";
+              document.getElementById("display").src = "../images/F60H.png";
             else if(whichExp(exp,maxexp) == "neutral")
-              document.getElementById("display").src = "../images/M60N.png";
+              document.getElementById("display").src = "../images/F60N.png";
             else if(whichExp(exp,maxexp) == "sad")
-              document.getElementById("display").src = "../images/M60S.png";
+              document.getElementById("display").src = "../images/F60S.png";
             else if(whichExp(exp,maxexp) == "surprised")
-              document.getElementById("display").src = "../images/M60Su.png";
+              document.getElementById("display").src = "../images/F60Su.png";
           }
-
+       
         }
-        }
+      
     }
-
       function whichExp(exp, maxexp) {
         let expressions = ["angry", "disgusted", "fearful", "happy", "neutral", "sad", "surprised"];
         let maxIndex = exp.indexOf(maxexp);
@@ -298,6 +299,6 @@ $(document).ready(function () {
     }
 
     face()
-    
+     
   });
 })
