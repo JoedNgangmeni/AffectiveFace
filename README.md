@@ -1,7 +1,7 @@
-## RecogApp<br>
+## EmotionAd (RecogApp Remix)<br>
 
 ### Description<br>
-**A browser-based application which uses face recognition to display ads in a smarter way, gain customer analytics and to help the blind to understand the emotions of the person near them.**<br>
+**A browser-based application which uses face recognition to display ads in a smarter way.**<br>
 
 ### Getting Started<br>
 Link to the web-app: https://recogapp.herokuapp.com/<br>
@@ -17,11 +17,7 @@ Follow the below instructions to run the app on local host<br>
 **Features**<br>
 The app starts with the home page which links to<br>
 <B>1. Smarter Advertising </B><br>
-The app detects the faces near the digital advertising board, recognizes their age and gender. This information is used to display ads accordingly on the digital advertising board. In this way people won't be bombarded with irrelavent ads and will lead to better reach of the ad to the concerned person.<br>
-<B>2. Customer Analytics</B><br>
-The application detects the age, gender, facial expressions of the customers and uses this data to display the analytics.  These analytics help the owners of the store to get an idea of their customers and help them to improve their marketing.<br>
-<B>3. Help the Blind</B><br>
-The application helps the blind to understand the emotions of the person near them.The application predicts the expressions of the person facing the camera. These expressions are read alound so that the blind person can better understand the situations.<br><br>
+The application predicts the age, gender, and emotion of the person facing the advertising board. Based on the predicted age, gender, and emotion, ads are displayed on screen. This will lead to better reach of the ad to the concerned person.<br>
 
 ### Techstack <br>
 * Face-api.js (a javacript api which is used to detect faces, recognize expressions, age and gender)
